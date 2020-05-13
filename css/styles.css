@@ -1,0 +1,16 @@
+* {
+    box-sizing: border-box;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+td, th, caption {
+    border: 2px solid black;
+    padding: 20px;
+}
+
+caption {
+    border-bottom-width: 0;
+}
