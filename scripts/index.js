@@ -1,5 +1,15 @@
 'use strict'
-const userInput = prompt()
+const userInput = prompt();
 alert(`Your input ${userInput}`);
 
-( () => console.log('test') )()
+/**
+ *
+ * @param {Array<number>} rest
+ * @returns {number}
+ */
+function sum (...rest) {
+  return rest.reduce((total, item) => total + item, 0)
+}
+
+
+( () => console.log('test') )();
