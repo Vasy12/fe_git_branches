@@ -1,16 +1,17 @@
-* {
+body {
+    display: flex;
+    justify-content: center;
+}
+
+body, ul, ol {
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
 }
 
-table {
-    border-collapse: collapse;
-}
 
-td, th, caption {
-    border: 2px solid black;
-    padding: 20px;
-}
+ul, ol {
 
-caption {
-    border-bottom-width: 0;
+    /*list-style-image: url("../icons/bat.png");*/
+    list-style-type: disc;
 }
